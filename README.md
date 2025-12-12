@@ -49,5 +49,7 @@ pip install paddlepaddle==3.2.0 -i https://www.paddlepaddle.org.cn/packages/stab
 # or GPU
 pip install paddlepaddle-gpu==3.2.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
 
+python -m pip install "paddleocr[all]"
+
 # Starting the training process
 python -m src.main
