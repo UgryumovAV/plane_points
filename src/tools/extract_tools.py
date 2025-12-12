@@ -172,6 +172,8 @@ def extract_walls_from_image(
         "walls": walls,
         "OCR": res_json
     }
-    with open(os.path.join(save_dir_path, f"{image_name}_result.json"), "w") as f:
+    json_path = os.path.join(save_dir_path, f"{image_name}_result.json")
+    with open(json_path, "w") as f:
         json.dump(result, f)
+        print(f"Result saved to {json_path}.")
         return None

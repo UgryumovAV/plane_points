@@ -35,6 +35,8 @@
 
 ## 🚀 Quick Start
 
+При первом запуске для работы OCR может потребоваться VPN.
+
 ```bash
 # Repository cloning
 git clone https://github.com/UgryumovAV/plane_points.git
