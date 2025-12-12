@@ -1,0 +1,1 @@
+from src.tools.extract_tools import extract_walls_from_image
