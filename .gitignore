@@ -2,3 +2,4 @@
 .idea
 src/test_code.py
 src/tests.py
+__pycache__/
